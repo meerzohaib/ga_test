@@ -10,6 +10,7 @@
     <?php require_once("includes/analytics.php"); ?>
 </head>
 <body>
+    <?php require_once("includes/gtm.php"); ?>
     <?php require_once("includes/nav.php"); ?>
     <h1>About online shopping</h1>
     <p>
@@ -17,7 +18,7 @@
         We are operating from USA, Austin. you can <a href="contact.php">contact us</a> for further details.
         <br /><br />
 
-        We full fill customer requirements. you can call us any time for further <a href="mailto:meerzohaib@gmail.com">inquiry</a>
+        We full fill customer requirements. you can call us any time for further <a href="mailto:meerzohaib@gmail.com" onclick="javascript:dataLayer.push({"event": "signup", "eventValue": "Email has been verified"});">inquiry</a>
     </p>
 </body>
 </html>

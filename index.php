@@ -10,6 +10,7 @@
     <?php require_once("includes/analytics.php"); ?>
 </head>
 <body>
+    <?php require_once("includes/gtm.php"); ?>
     <?php require_once("includes/nav.php"); ?>
     <h1>Welcome to online shopping</h1>
     <p>
